@@ -1,0 +1,205 @@
+header{
+  position: sticky;
+}
+.am{
+display: block;
+height: 15vh;
+width: 100%;
+background-color:#E63392;
+background-size: cover;
+color:white;
+}
+nav{
+display: flex;
+align-items: center;
+justify-content:space-between ;
+padding-top: 20px;
+padding-left: 10%;
+padding-right: 10%;
+}
+.hh{
+font-family: "Lucida Handwriting";
+font-size: 40px;
+color: white;
+}
+span{
+  color:black;
+}
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 15px 20px;
+}
+nav ul li a{
+  color: white;
+  text-decoration: none;  
+}
+nav ul li a:hover{
+  color: black;
+  transition: .3s;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto ;
+  grid-gap: 2rem;
+  padding: 1rem;
+  grid-template-rows: 203px 203px 203px;
+  row-gap:40px;
+}
+
+.grid-item {
+  background-color: #ccc;
+  padding: 2rem;
+  text-align: center;
+}
+.grid-item-1{
+  display:block;
+  background-color:white;
+  text-align:center;
+  border:1px solid black;
+}
+.grid-item-1 img{
+display:block;
+float:left;
+}
+.grid-item-2{
+  display:block;
+  background-color:white;
+  text-align:center;
+  border:1px solid black;
+}
+.grid-item-2 img{
+display:block;
+float:left;
+}
+.grid-item-3{
+  display:block;
+  background-color:white;
+  text-align:center;
+  border:1px solid black;
+}
+.grid-item-3 img{
+display:block;
+float:left;
+}
+.grid-item-4{
+  display:block;
+  background-color:white;
+  text-align:center;
+  border:1px solid black;
+}
+.grid-item-4 img{
+display:block;
+float:left;
+}
+.grid-item-5{
+  display:block;
+  background-color:white;
+  text-align:center;
+  border:1px solid black;
+}
+.grid-item-5 img{
+display:block;
+float:left;
+}
+.grid-item-6{
+  display:block;
+  background-color:white;
+  text-align:center;
+  border:1px solid black;
+}
+.grid-item-6 img{
+display:block;
+float:left;
+}
+.grid-item-7{
+  display:block;
+  background-color:white;
+  text-align:center;
+  border:1px solid black;
+}
+.grid-item-7 img{
+display:block;
+float:left;
+}
+.grid-item-8{
+  display:block;
+  background-color:white;
+  text-align:center;
+  border:1px solid black;
+}
+.grid-item-8 img{
+display:block;
+float:left;
+}
+.grid-item-9{
+  display:block;
+  background-color:white;
+  text-align:center;
+  border:1px solid black;
+}
+.grid-item-9 img{
+display:block;
+float:left;
+}
+*{
+  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+  max-width: 1170px;
+  margin: auto;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+ul{
+  list-style-type: none;
+}
+.footer{
+  background-color: #24262b;
+  padding: 70px 0px;
+  position: sticky;
+  top: 100%;
+}
+.footer-col{
+  width: 25%;
+    padding: 0px 20px;
+}
+.footer-col h4{
+  font-size: 20px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col h4::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+.footer-col ul li:not(:last-child){
+  margin-bottom: 10px;
+}
+.footer-col ul li a{
+  font-size: 17px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+  color:white;
+  padding-left: 10px;
+}
